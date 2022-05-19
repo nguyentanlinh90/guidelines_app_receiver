@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-public class MyBroadcastReceiver extends BroadcastReceiver {
+public class MyBroadcastReceiver1 extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         String text = intent.getStringExtra(MainActivity.MY_KEY);

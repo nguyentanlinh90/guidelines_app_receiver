@@ -21,7 +21,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     private String MY_BROADCAST_ACTION = "com.ntl.MY_ACTION";
     private String MY_BROADCAST_OBJECT_ACTION = "com.ntl.MY_OBJECT_ACTION";
-    private String MY_KEY = "my_key";
+    public static final String MY_KEY = "my_key";
     private String MY_KEY_LIST_OBJECT = "my_key_list_object";
 
     private TextView tvReceiver, tvReceiverObject;
